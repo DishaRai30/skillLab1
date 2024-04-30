@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="cart2" href="cart2.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">SHOPPING CART</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." id="searchInput">
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="filters">
+      <span>Categories:</span>
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <!-- Add more category options as needed -->
+      </select>
+    </div>
+    <div class="product-list" id="productList"></div>
+  </main>
+  <aside class="cart" id="cart">
+    <h2>SHOPPING CART</h2>
+    <ul id="cartItems"></ul>
+  </aside>
+
+  <script src="cart3.js"></script>
+</body>
+</html>
